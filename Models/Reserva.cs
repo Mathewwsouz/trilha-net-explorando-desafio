@@ -61,7 +61,7 @@ namespace DesafioProjetoHospedagem.Models
                 decimal ValorCom10 = valorSemDesconto - (valorSemDesconto * 0.10);
 
                 return ValorCom10;
-            }
+            } 
             else
             {
                 return valorSemDesconto;
